@@ -1,0 +1,149 @@
+.google-ads-tracking-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.google-ads-tracking-hero {
+  width: 100%;
+  display: flex;
+  padding: 120px 20px 60px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #0a0a0a 0%, #121212 100%);
+}
+
+.google-ads-tracking-breadcrumb {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.google-ads-tracking-separator {
+  margin: 0 10px;
+  color: #444444;
+}
+
+.google-ads-tracking-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.google-ads-tracking-subtitle {
+  color: #999999;
+  font-size: 18px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.google-ads-tracking-content {
+  width: 100%;
+  display: flex;
+  padding: 60px 20px 100px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.google-ads-tracking-wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.google-ads-tracking-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.google-ads-tracking-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.google-ads-tracking-text {
+  color: #cccccc;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.google-ads-tracking-image-container {
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #222222;
+}
+
+.google-ads-tracking-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.google-ads-tracking-highlight {
+  padding: 30px;
+  margin: 20px 0;
+  background-color: #161616;
+  border-left: 4px solid #4285f4;
+  border-radius: 4px;
+}
+
+.google-ads-tracking-highlight-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .google-ads-tracking-title {
+    font-size: 38px;
+  }
+  
+  .google-ads-tracking-heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 479px) {
+  .google-ads-tracking-title {
+    font-size: 32px;
+  }
+  
+  .google-ads-tracking-hero {
+    padding: 100px 20px 40px;
+  }
+  
+  .google-ads-tracking-content {
+    padding: 40px 20px 80px;
+  }
+  
+  .google-ads-tracking-heading {
+    font-size: 24px;
+  }
+  
+  .google-ads-tracking-highlight {
+    padding: 20px;
+  }
+}
