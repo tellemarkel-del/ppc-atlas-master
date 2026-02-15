@@ -1,0 +1,149 @@
+.meta-ads-targeting-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.meta-ads-targeting-hero {
+  width: 100%;
+  display: flex;
+  padding: 120px 20px 60px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #0a0a0a 0%, #121212 100%);
+}
+
+.meta-ads-targeting-breadcrumb {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.meta-ads-targeting-separator {
+  margin: 0 10px;
+  color: #444444;
+}
+
+.meta-ads-targeting-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.meta-ads-targeting-subtitle {
+  color: #999999;
+  font-size: 18px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.meta-ads-targeting-content {
+  width: 100%;
+  display: flex;
+  padding: 60px 20px 100px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.meta-ads-targeting-wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.meta-ads-targeting-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meta-ads-targeting-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.meta-ads-targeting-text {
+  color: #cccccc;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.meta-ads-targeting-image-container {
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #222222;
+}
+
+.meta-ads-targeting-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.meta-ads-targeting-highlight {
+  padding: 30px;
+  margin: 20px 0;
+  background-color: #161616;
+  border-left: 4px solid #1877f2;
+  border-radius: 4px;
+}
+
+.meta-ads-targeting-highlight-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .meta-ads-targeting-title {
+    font-size: 38px;
+  }
+  
+  .meta-ads-targeting-heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 479px) {
+  .meta-ads-targeting-title {
+    font-size: 32px;
+  }
+  
+  .meta-ads-targeting-hero {
+    padding: 100px 20px 40px;
+  }
+  
+  .meta-ads-targeting-content {
+    padding: 40px 20px 80px;
+  }
+  
+  .meta-ads-targeting-heading {
+    font-size: 24px;
+  }
+  
+  .meta-ads-targeting-highlight {
+    padding: 20px;
+  }
+}

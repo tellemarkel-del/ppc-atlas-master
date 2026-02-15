@@ -1,0 +1,126 @@
+.meta-ads-hub-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.meta-ads-hub-hero {
+  width: 100%;
+  display: flex;
+  padding: 120px 20px 80px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #0a0a0a 0%, #121212 100%);
+}
+
+.meta-ads-hub-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.meta-ads-hub-subtitle {
+  color: #999999;
+  font-size: 20px;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.meta-ads-hub-content {
+  width: 100%;
+  display: flex;
+  padding: 80px 20px 120px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.meta-ads-hub-grid {
+  width: 100%;
+  display: grid;
+  max-width: 1200px;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.meta-ads-hub-card {
+  display: flex;
+  padding: 40px 30px;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #161616;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.meta-ads-hub-card:hover {
+  border-color: #1877f2;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(24, 119, 242, 0.15);
+}
+
+.meta-ads-hub-card-number {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.meta-ads-hub-card-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.meta-ads-hub-card-description {
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .meta-ads-hub-title {
+    font-size: 42px;
+  }
+  
+  .meta-ads-hub-subtitle {
+    font-size: 18px;
+  }
+  
+  .meta-ads-hub-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 479px) {
+  .meta-ads-hub-title {
+    font-size: 36px;
+  }
+  
+  .meta-ads-hub-hero {
+    padding: 100px 20px 60px;
+  }
+  
+  .meta-ads-hub-content {
+    padding: 60px 20px 100px;
+  }
+}
